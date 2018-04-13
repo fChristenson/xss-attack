@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gotcha</title>
+  <style>
+    body {
+      background-color: steelblue;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    input {
+      display: block;
+      margin: 8px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Login</h1>
+  <form action="/login" method="POST">
+    <input type="text" placeholder="username" name="username">
+    <input type="password" placeholder="password" name="password">
+    <input type="submit" value="Login">
+  </form>
+  <script src="/bundle.js"></script>
+</body>
+
+</html>
